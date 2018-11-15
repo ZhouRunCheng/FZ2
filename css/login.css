@@ -1,0 +1,26 @@
+body{
+  background: #454545;
+}
+
+.container{
+  width: 450px;
+  margin-top: 100px;
+  background: #fff;
+}
+.title{
+  text-align: center;
+}
+
+.finput .row{
+  margin: 20px 15px;
+}
+
+.signupbtn,
+.registerbtn{
+  margin: 15px 0;
+  text-align: center;
+}
+.signupbtn button,
+.registerbtn button{
+  width: 130px;
+}
