@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.0/normalize.css">
+  <link rel="stylesheet" href="css/login.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title"><h1>登一下</h1></div>
+    <ul class="nav nav-tabs" id="log">
+      <li id="loginnav" class="active">
+        <a>登录</a>
+      </li>
+    </ul>
+    <form>
+      <div id="login" class="finput">
+        <div class="row">
+          <label>用户名</label>
+          <span class="form-group"><input type="text" class="form-control" placeholder="输入用户名"></span>
+        </div>
+        <div class="row">
+          <label>
+            密码
+          </label>
+          <span class="form-group"><input type="password" class="form-control" placeholder="输入口令"></span>
+        </div>
+        <div class="row">
+          <label>
+            验证码<img src="img/70x35.jpg" alt="">
+            <!-- <a id="timedown" href="#"> 发送验证码 </a> -->
+            <!-- <span id="s"></span> -->
+          </label>
+          <span class="form-group"><input type="password" class="form-control" placeholder="输入验证码"></span>
+        </div>
+        <div class="signupbtn"><button type="button" class="btn btn-primary btn-lg">登录</button></div>
+      </div>
+    </form>
+  </div>
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/vuejs-2.5.17.js" charset="utf-8"></script>
+  <script src="js/login.js" charset="utf-8"></script>
+</body>
+</html>
