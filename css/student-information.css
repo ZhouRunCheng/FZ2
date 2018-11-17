@@ -1,0 +1,33 @@
+.information{
+  -webkit-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+*{
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  /* margin-bottom: 10px; */
+}
+.query{
+  height:150px;
+}
+.query-option{
+  height:35px;
+}
+.query-option button{
+  margin: 0;
+  height: 100%
+}
+.query-content{
+  height:420px;
+}
+.query>*{
+  margin: 0;
+  padding: 0;
+}
+
+.pull-left{
+  width: 20%;
+}
+.pull-right{
+  width: 80%;
+  margin: 10px auto;
+}

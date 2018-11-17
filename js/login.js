@@ -42,3 +42,10 @@ function timedown() {
     time.removeClass('hide');
   }
 }
+
+$('.signupbtn-s').on('click',function(){
+  window.open("index-super.html");
+});
+$('.signupbtn-g').on('click',function(){
+  window.open("index-general.html");
+});
