@@ -15,21 +15,21 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <div class="navbar-brand">
-          <a href="index-super.html">某某系统</a>
+          <a href="index.html">某某系统</a>
         </div>
       </div>
       <div>
         <ul class="nav navbar-nav">
-          <li><a href="notice-super.html">通知</a></li>
-          <li><a href="mission-super.html">任务列表</a></li>
+          <li><a href="notice.html">通知</a></li>
+          <li><a href="mission.html">任务列表</a></li>
           <li><a href="student-information.html">学生基础信息</a></li>
           <li><a href="family-information.html">家庭经济信息</a></li>
           <li><a href="loan-information.html">贷款信息</a></li>
           <li><a href="award-information.html">获奖情况</a></li>
-          <li><a href="import-data.html">导入资料</a></li>
+          <li class="active"><a href="import-data.html">导入资料</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="help-super.html">帮助说明</a></li>
+          <li><a href="help.html">帮助说明</a></li>
         </ul>
       </div>
     </div>
@@ -37,7 +37,28 @@
 
 
   <div class="container">
-    <h1>超级管理员通知</h1>
+    <form role="form form-inline">
+      <div action="" class="import-stu form-group">
+        <label for="inputfile">导入学生基本资料</label>
+        <input type="file" id="inputfile">
+        <input type="submit" class="btn btn-primary">
+      </div>
+      <div action="" class="import-fam form-group">
+        <label for="inputfile">导入家庭经济资料</label>
+        <input type="file" id="inputfile">
+        <input type="submit" class="btn btn-primary">
+      </div>
+      <div action="" class="import-loa form-group">
+        <label for="inputfile">导入贷款资料</label>
+        <input type="file" id="inputfile">
+        <input type="submit" class="btn btn-primary">
+      </div>
+      <div action="" class="import-awa form-group">
+        <label for="inputfile">导入获奖资料</label>
+        <input type="file" id="inputfile">
+        <input type="submit" class="btn btn-primary">
+      </div>
+    </form>
   </div>
 
 

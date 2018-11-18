@@ -15,19 +15,21 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <div class="navbar-brand">
-          <a href="index-super.html">某某系统</a>
+          <a href="index.html">某某系统</a>
         </div>
       </div>
       <div>
         <ul class="nav navbar-nav">
-          <li><a href="index-general.html">首页</a></li>
-          <li class="active"><a href="mission-general.html">任务通知</a></li>
-          <li><a href="student-information.html">在校学生信息</a></li>
+          <li><a href="notice.html">通知</a></li>
+          <li class="active"><a href="mission.html">任务列表</a></li>
+          <li><a href="student-information.html">学生基础信息</a></li>
           <li><a href="family-information.html">家庭经济信息</a></li>
-          <li><a href="#">没有了</a></li>
+          <li><a href="loan-information.html">贷款信息</a></li>
+          <li><a href="award-information.html">获奖情况</a></li>
+          <li><a href="import-data.html">导入资料</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">帮助说明</a></li>
+          <li><a href="help.html">帮助说明</a></li>
         </ul>
       </div>
     </div>
@@ -38,8 +40,7 @@
     <div class="info-left-nav pull-left">
       <ul class="nav nav-pills">
         <div class="title text-center">普通管理员</div>
-        <li class="block text-center active"><a href="#">新任务</a></li>
-        <li class="block text-center"><a href="#">目前任务</a></li>
+        <li class="block text-center active"><a href="#">目前任务</a></li>
         <li class="block text-center"><a href="#">已完成任务</a></li>
       </ul>
     </div>
@@ -47,13 +48,13 @@
       <div class="past-message">
         <div class="panel-heading">
           <label class="info-left"><h3>新通知</h3></label>
-          <label class="info-right pull-right"><h3>已阅</h3></label>
+          <label class="info-right pull-right"><h3>提交任务</h3></label>
         </div>
         <div class="info-item panel-body">
           <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
           <span class="pull-right">
             <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
+            <input id="gotmiss" class="btn btn-default" type="button" value="提交">
           </span>
           <div class="text-muted small">
             发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
@@ -63,7 +64,7 @@
           <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
           <span class="pull-right">
             <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
+            <input id="gotmiss" class="btn btn-default" type="button" value="提交">
           </span>
           <div class="text-muted small">
             发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
@@ -73,7 +74,7 @@
           <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
           <span class="pull-right">
             <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
+            <input id="gotmiss" class="btn btn-default" type="button" value="提交">
           </span>
           <div class="text-muted small">
             发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
@@ -83,37 +84,7 @@
           <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
           <span class="pull-right">
             <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
-          </span>
-          <div class="text-muted small">
-            发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
-          </div>
-        </div>
-        <div class="info-item panel-body">
-          <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
-          <span class="pull-right">
-            <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
-          </span>
-          <div class="text-muted small">
-            发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
-          </div>
-        </div>
-        <div class="info-item panel-body">
-          <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
-          <span class="pull-right">
-            <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
-          </span>
-          <div class="text-muted small">
-            发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
-          </div>
-        </div>
-        <div class="info-item panel-body">
-          <a href="#" data-toggle="modal" data-target="#messageModal">这是一条信息标题</a>
-          <span class="pull-right">
-            <!-- <input type="checkbox" class="checkbox" name="read" value="readed"> -->
-            <input class="btn btn-default" type="checkbox">
+            <input id="gotmiss" class="btn btn-default" type="button" value="提交">
           </span>
           <div class="text-muted small">
             发布时间：2018/11/16 &nbsp||&nbsp 截止日期：2018/11/18
@@ -155,5 +126,6 @@
   <script src="js/bootstrap.js" charset="utf-8"></script>
   <script src="js/vuejs-2.5.17.js" charset="utf-8"></script>
   <script src="js/nav.js" charset="utf-8"></script>
+  <script src="js/mission.js" charset="utf-8"></script>
 </body>
 </html>

@@ -44,8 +44,8 @@ function timedown() {
 }
 
 $('.signupbtn-s').on('click',function(){
-  window.open("index-super.html");
+  window.open("notice-super.html");
 });
 $('.signupbtn-g').on('click',function(){
-  window.open("index-general.html");
+  window.open("notice.html");
 });

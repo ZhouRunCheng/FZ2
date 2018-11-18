@@ -19,17 +19,18 @@
   width: 12%;
 }
 
+.info-message{
+  width: 88%;
+}
 .info-left-nav .nav .block{
   width: 100%;
   margin: 0;
 }
 
-.info-message{
-  width: 88%;
-}
 .info-item{
   border-bottom: 1px solid rgba(0,0,0,.2);
 }
+
 .info-message{
   border-top:  0;
   border-bottom:  0;
